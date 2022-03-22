@@ -3,10 +3,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Open Sans Condensed';
-
+  padding: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a {
+  text-decoration: none;
+  color: black;;
+}
+
+* {
+  box-sizing: border-box;
 }
