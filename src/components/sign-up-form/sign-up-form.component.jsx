@@ -5,7 +5,7 @@ import {
 	createAuthUserWithEmailAndPassword,
 	createUserDocumentFromAuth,
 } from '../../utils/firebase/firebase.utils'
-import './sign-up-forms.styles.scss'
+import './sign-up-form.styles.scss'
 
 const defaultFormFields = {
 	displayName: '',
@@ -90,7 +90,7 @@ const SignUpForm = () => {
 					required
 				/>
 
-				<Button type='submit' buttonType={'inverted'}>Sign Up</Button>
+				<Button type='submit'>Sign Up</Button>
 			</form>
 		</div>
 	)
